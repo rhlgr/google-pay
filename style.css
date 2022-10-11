@@ -1,0 +1,723 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+  min-height: 100vh;
+}
+.box1{
+    width: 100%;
+   min-height: 100vh;
+    
+}
+.nav{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    padding: 0 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.177);
+}
+
+.part2{
+  display: flex;
+  align-items: center;
+   margin-left: 65vmax;
+}
+.part2 h1{
+    font: 500 1.1vmax "roboto";
+    color: blueviolet;
+    margin-right: 20px;
+}
+.part2 button{
+    padding: 13px 24px;
+    background-color:royalblue ;
+    color: white;
+    border: none;
+    font: 500 1.1vmax "roboto";
+    border-radius: 2px;
+}
+.boxa{
+    width: 100%;
+    min-height: 90vh;
+    background-image:url(unnamed.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card{
+    width: 21%;
+    min-height: 75vh;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.321);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9;
+
+}
+.card h3{
+    font: 900 2vmax "roboto";
+    text-align: center;
+    
+}
+
+
+.img{
+position: absolute;
+top: 32%;
+left: 39.5%;
+z-index: 11;
+}
+
+.boxa h1{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    font: 500 1.2vmax "roboto";
+    background-color: rgb(241,243,244);
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.boxa h2{
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    font: 500 1.2vmax "roboto";
+    background-color: rgb(210,227,252);
+    color: rgb(75,92,168);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.box2{
+    width: 100%;
+    min-height: 200vh;
+    background-color: rgb(255,255,255);
+    padding-top: 9vmax;
+    position: relative;
+}
+.box2 h1{
+margin-left: 29vmax;
+    font: 500 3.1vmax "roboto"; 
+}
+.box2 h2{
+    margin-left: 25.5vmax;
+    margin-top: 30px;
+    font: 500 1.5vmax "roboto"; 
+    color: rgb(137, 138, 138);
+}
+.box2 h3{
+    width: 65%;
+    text-align: center;
+    margin-top: 30px;
+    font: 500 1.5vmax "roboto"; 
+    color: rgb(126, 126, 126);
+    margin-left: 17.5vmax;
+
+}
+.middle{
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.images{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.b2right{
+    margin-top: 90px;
+    width: 100%;
+    min-height: inherit;
+ position: relative;
+}
+.b2right >h5{
+    font: 500 1.3vmax "roboto";  
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(241,243,244);
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.b2right>h6{
+    
+    font: 500 1.3vmax "roboto"; 
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(210,227,252);
+    color: rgb(45,84,166);
+    position: absolute;
+    top: 60%;
+    left: 80%;
+}
+
+.center{
+    width: 21%;
+    height: 30vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50.8%;
+    transform: translate(-50%,-30%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.321);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9;
+}
+.text{
+    width: 100%;
+    height: 40vh;
+    margin-top: 30px;
+}
+.a1{
+    width: 70%;
+    font: 500 3.1vmax "roboto"; 
+    text-align: center;
+ margin-left: 16vmax;
+}
+.a2{
+    height: 10vh;
+    width: 62%;
+    font: 500 1.1vmax "roboto"; 
+    text-align: center;
+  margin-left: 19.5vmax;
+  margin-top: 60px;
+  z-index: 11;
+}
+.middle2{
+    width: 100%;
+    height: 75vh;
+    background-image: url(bacchi.webp);
+    background-repeat: no-repeat;
+    background-size: 100%,20%;
+    background-position: center;
+    position: relative;
+}
+.middle2 h1{
+    font: 500 1.3vmax "roboto";  
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(241,243,244);
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+
+.middle2 h2{
+    font: 500 1.3vmax "roboto";  
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: rgb(45,84,166);
+    background-color: rgb(210,227,252);
+    position: absolute;
+    top: 60%;
+    left: 32%;
+}
+.box3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box3 h1{
+    font: 500 3vmax "roboto"; 
+    margin-top: 0vmax;
+}
+.box3 p{
+    margin-top: 40px;
+    font: 500 1.1vmax "roboto"; 
+    width: 63%;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(137, 138, 138);
+}
+span{
+    color: rgb(56,133,235);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.upi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.headline{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(248,248,248);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.headline h1{
+    font: 500 2vmax "roboto"; 
+    padding-top: 4vmax;
+
+}
+.swiper {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-slide {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+  }
+ .box4{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ } 
+ .b4img{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   position: relative;
+}
+.b4left{
+    margin-top: 90px;
+    width: 100%;
+min-height: inherit;
+ position: relative;
+}
+h5{
+    font: 500 1.3vmax "roboto";  
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(241,243,244);
+    position: absolute;
+    top: 57%;
+    left: 64%;
+}
+h6{
+    font: 500 1.3vmax "roboto"; 
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(210,227,252);
+    position: absolute;
+    top: 75%;
+    left: 79.5%;
+    color: rgb(45,84,166);
+}
+
+.b4center{
+    width: 21%;
+ min-height: 30vh;
+    background-color: white;
+    position: absolute;
+    top: 35%;
+    left: 50.8%;
+    transform: translate(-50%,-30%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.321);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9;
+}
+.box4 h1{
+    margin-top: 20px;
+}
+.box5{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.box5 h1{
+    font: 500 1vmax "roboto"; 
+    color: rgba(74, 71, 71, 0.841);
+    height: 10vh;
+    width: 57%;
+    text-align: center;
+}
+.box5 p{
+    font: 500 .9vmax "roboto"; 
+    color: rgba(54, 53, 53, 0.841);
+    height: 10vh;
+    width: 70%;
+    text-align: center;
+    margin-top: -1vmax;
+}
+.b5left{
+    margin-top: 90px;
+    width: 100%;
+min-height: inherit;
+ position: relative;
+}
+.b5left h5{
+    font: 500 1.3vmax "roboto";  
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(241,243,244);
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+.b5left h6{
+    font: 500 1.3vmax "roboto"; 
+    border: 1px  black;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(210,227,252);
+    position: absolute;
+    top:43%;
+    left: 55.5%;
+    color: rgb(45,84,166);
+}
+
+
+
+.box6{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box6 h1{
+    font: 500 3vmax "roboto"; 
+    height: 10vh;
+    width: 57%;
+    text-align: center;
+
+}
+.box6 h2{
+    font: 500 1vmax "roboto"; 
+    color: rgba(54, 53, 53, 0.841);
+    height: 10vh;
+    width: 57%;
+    text-align: center;
+    margin-top: 20px;
+}
+.box6 p{
+    font: 500 1vmax "roboto"; 
+    color: rgba(54, 53, 53, 0.841);
+    height: 10vh;
+    width: 70%;
+    text-align: center;
+    margin-top: -1vmax;
+}
+.banks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banks img{
+    margin: 0 10px;
+}
+.bhim{
+    margin-top: 20px;
+}
+.b6bottom{
+    height: 10vh;
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    position: relative;
+    margin-top: 40PX;
+}
+.b6bottom h1{
+    font: 500 1.1vmax "roboto"; 
+    color: rgb(26,115,232);
+    text-align: center;
+    cursor: pointer;
+}
+.b6bottom img{
+    background-color: rgb(26,115,232);
+    border-radius: 50%;
+    position: absolute;
+    left: 56.5%;
+    top: 5%;
+}
+.b6bottom h1:hover .b6bottom > img{
+    transform: translateX(5%);
+}
+.box7{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.animation{
+    background-color: rgb(248,248,248);
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+}
+.animation>h1{
+    margin-top: 1vmax;
+}
+.b7middle{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* background-color: aqua; */
+position: relative;
+}
+.line{
+    width: 86%;
+    height: .5vh;
+    background-color:rgb(204,204,204);
+  
+}
+.line1{
+    width: 0%;
+    height: inherit;
+    background-color:rgb(67,133,244);
+  transition: 8s all ease-in-out;
+}
+.b7middle:hover .line1{
+    width: 100%;
+}
+.download{
+    position: absolute;
+    left: 6%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.lock{
+    position: absolute;
+    left: 33.7%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.link{
+    position: absolute;
+    left: 61%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.tick{
+    position: absolute;
+    left: 89%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.tex{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 70%;
+}
+.tex >h1{
+    font: 500 1.5vmax "roboto"; 
+    width: 10.5%;
+    text-align: center;
+}
+.b7last{
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.last1{
+    margin-top:-10px ;
+}
+.box7 > h2{
+    font: 500 3vmax "roboto"; 
+}
+.box8{
+    width: 100%;
+    min-height: 100vh;
+}
+.p{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.p3{
+  color: blueviolet;
+  cursor: pointer;
+}
+.p3:hover{
+    color: blue;
+}
+.p img{
+    background-color: rgb(26,115,232);
+    border-radius: 50%;
+    position: absolute; 
+    left: 55.5%;
+    top: 70%;
+
+}
+.r{
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.b8center{
+    width: 100%;
+    min-height: 55vh;
+    display: flex;
+}
+.b8left{
+    width: 35%;
+    min-height: inherit;
+ 
+}
+.b8left >img{
+    margin-left: 9vmax;
+    margin-top: -2vmax;
+}
+.b8right{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.b8one{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+.b8two{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.b8four{
+    position: absolute;
+    top: 20%;
+    left: 67%;
+}
+.b8three{
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+
+}
+.b8three>img{
+    cursor: pointer;
+}
+.b8three:hover .s{
+    color: rgba(0, 0, 255, 0.647);
+}
+.s{
+    position: absolute;
+    top: 108%;
+    left: 20%;
+    color: rgba(64, 64, 65, 0.786);
+    padding-right:80px ;
+    font-size: 1vmax;
+    border: none;
+    cursor: pointer;
+}
+.s:hover{
+    color: rgba(0, 0, 255, 0.647);
+}
+.b8one>h1,.b8two>h1,.b8four>h1{
+    font: 500 1vmax "roboto"; 
+    color: rgba(64, 64, 65, 0.786);
+    cursor: pointer;
+    margin: 25px;
+}
+.b8one>h1:hover,.b8two>h1:hover,.b8four>h1:hover{
+    color: rgba(0, 0, 255, 0.647);
+}
+.q{
+    padding: 0 150px;
+    height: 1vh;
+}
+.b8last{
+    width: 100%;
+    min-height: 5vh;
+    padding: 0 150px;
+    margin-top: 30px;
+}
+.b8icon{
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.b8last .p4{
+    width: 50%;
+    font: 500 .8vmax "roboto"; 
+    margin-left: 48vmax;
+ 
+    margin-top: -20px;
+}
